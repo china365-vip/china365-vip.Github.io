@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://china365-vip.github.io</id>
     <title>高浩轩</title>
-    <updated>2021-01-16T11:10:18.912Z</updated>
+    <updated>2021-01-16T12:08:29.875Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://china365-vip.github.io"/>
     <link rel="self" href="https://china365-vip.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://china365-vip.github.io/images/avatar.png</logo>
     <icon>https://china365-vip.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 高浩轩</rights>
+    <entry>
+        <title type="html"><![CDATA[友链]]></title>
+        <id>https://china365-vip.github.io/post/you-lian/</id>
+        <link href="https://china365-vip.github.io/post/you-lian/">
+        </link>
+        <updated>2021-01-16T11:39:29.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://www.baidu.com" name="百度" logo="https://www.valzt.cn/media/b_DKVhd1g.jpg">
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[各大网盘现况]]></title>
         <id>https://china365-vip.github.io/post/NetworkDisk/</id>
@@ -283,36 +292,6 @@ Github<a href="https://github.com/" target="_blank">开源 应该不用说都知
         <updated>2020-09-30T23:51:59.000Z</updated>
         <content type="html"><![CDATA[<p><font size=7 face="华文楷体" >我们一同迎来了国家71周年，祝大家中秋国庆快乐，祝我们的国家繁荣昌盛，更加富强！</font></p>
 <p><font size=6 face="华文楷体" >高浩轩 敬上</font></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[免费送E5账号（5个）]]></title>
-        <id>https://china365-vip.github.io/post/Office365E5/</id>
-        <link href="https://china365-vip.github.io/post/Office365E5/">
-        </link>
-        <updated>2020-09-30T11:06:01.000Z</updated>
-        <content type="html"><![CDATA[<p>本次已经送完，等下次吧，感谢大家支持<br>
-<s>emm.....最近突然想送点Microsoft Office365 E5账号(开发者)<br>
-大家可以在评论区留言领取，博主看到会及时回复的</s><br>
-领取格式：</p>
-<p>领取E5账号<br>
-领取邮箱:(自己的邮箱）<br>
-领取前辍:随便填一个<br>
-没按照以上格式填写的留言一率忽略<br>
-大家不要一个人领多个，一人一号不要多领<br>
-之后这是本次的后辍  office365g5.onmicrosoft.com<br>
-删号规则:<br>
-1.长期未登录<br>
-2.滥用API<br>
-3.违反中国大陆法律<br>
-以上行为都将封号</p>
-<p>OneDrive容量：5TB<br>
-Office产品：Microsoft Apps for enterprise<br>
-有时间就会发送账号<br>
-请勿上传违反中国大陆法律的各类文档及影音，违者后果自负。</p>
-<p>如果您想自己订阅E5，我的好伙伴道之遠兮的<a href="https://www.skxlz.top/2020/04/05/07/" target="_blank">教程 </a><br>
-想要A1Plus账号可以参考本站注册<a href="https://hkjyh5.coding-pages.com/office365/" target="_blank">教程 </a></p>
-<p>注：OneDrive需要等待24小时才能配置完成，请耐心等待，如果24小时后依然无法登录，请与博主联系! 谢谢。</p>
 ]]></content>
     </entry>
 </feed>
