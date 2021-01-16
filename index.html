@@ -1,0 +1,387 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>高浩轩</title>
+<link rel="shortcut icon" href="https://china365-vip.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://china365-vip.github.io/media/css/tailwind.css">
+<link rel="stylesheet" href="https://china365-vip.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="高浩轩 - Atom Feed" href="https://china365-vip.github.io/atom.xml">
+
+    
+
+  <meta name="description" content="只争朝夕，不负韶华！" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://china365-vip.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto ">
+      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      高浩轩
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      只争朝夕，不负韶华！
+    </div>
+    
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://china365-vip.github.io/images/avatar.png?v=1610792839704" alt="高浩轩" width="100%" height="100%">
+  </div>
+</header>
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://china365-vip.github.io/post/NetworkDisk/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          各大网盘现况
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-01-13</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        国内最知名的网盘厂商百度网盘，可能要逐渐没落了
+
+虽然有超过几亿的用户量，但是下载速度却差强人意
+假设一个用户有2T的免费存储量，两亿人就是
+2056*200000000=411200000000 存储量
+这是不堪设想的，毕竟谁也不想为“免...
+      </div>
+      <a href="https://china365-vip.github.io/post/NetworkDisk/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://gitee.com/china-365vip/picture/raw/master/haoxuan.jpg" alt="各大网盘现况">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://china365-vip.github.io/post/NewYear/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          跨年夜即将到来，新年将至！
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-12-31</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        新年快乐！
+转眼之间，一年已经过去了，转眼间，一年时间，光阴如梭，
+再见！2020
+新年新气象，加油！
+新年快乐！
+你好！2021
+祝 万事顺意  幸福美满 年年有余！
+Happy New Year!
+高浩轩 敬上
+...
+      </div>
+      <a href="https://china365-vip.github.io/post/NewYear/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://gitee.com/china-365vip/picture/raw/master/src=http___5b0988e595225.cdn.sohucs.com_images_20181229_8360b0ea9e134567baeadf2a24b87ac4.jpeg&amp;refer=http___5b0988e595225.cdn.sohucs.jpg" alt="跨年夜即将到来，新年将至！">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://china365-vip.github.io/post/PicGo-Gitee/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          PicGo+Gitee搭建个人图床
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-11-21</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        搭建私人图床对于博主来说就是减少站内图片加载，减少服务器压力
+首先下载一下PicGO，对应的系统下载对应的版本
+PicGo下载 
+现支持SM.MS图床 腾讯云COS Github 七牛 Imgur 阿里云OSS 又拍云 Gitee等
+我们搭...
+      </div>
+      <a href="https://china365-vip.github.io/post/PicGo-Gitee/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://gitee.com/china-365vip/picture/raw/master/mdvo58%20(1).jpg" alt="PicGo+Gitee搭建个人图床">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://china365-vip.github.io/post/life/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          下雪啦
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-11-19</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        长春这边终于下雪了 雪景真的很漂亮
+图片有点多 耐心等待一会
+话不多说，直接上图🤣
+
+
+
+
+
+
+树上都结冰了，还有的树都倒了 但是是不幸中的万幸，还没有车被砸到
+
+
+
+
+
+希望大家做好自己的个人防护，防范流感等疾病
+同时 东北的朋友尽量减...
+      </div>
+      <a href="https://china365-vip.github.io/post/life/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://gitee.com/china-365vip/picture/raw/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20201119092638.jpg" alt="下雪啦">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://china365-vip.github.io/post/Web/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          推荐一些好网站
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-11-10</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        如果想把喜欢听的歌下载下来的话推荐一个好的网站 
+对于一些博主来说，随机诗词是网站建设中的一个小插件，推荐一个一言API 
+如果想看一些VIP才能看的电影 电视剧 综艺 VIP影院 
+QQ官方靓号注册网站 QQ注册 
+免费PPT模板 最重要...
+      </div>
+      <a href="https://china365-vip.github.io/post/Web/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://china365-vip.github.io/post-images/Web.jpg" alt="推荐一些好网站">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://china365-vip.github.io/post/markdown/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Markdown语法
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-10-31</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        本文主要为刚刚接触Markdown的人而写，会持续更新，谢谢~
+一、编辑器
+本文使用的编辑器是Gridea，可能与其他编辑器代码不同，敬请谅解。
+二、概述
+·Markdown 易于阅读，方便创作web文档，利于各平台无缝分发。
+·Markd...
+      </div>
+      <a href="https://china365-vip.github.io/post/markdown/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://china365-vip.github.io/post-images/markdown.jpg" alt="Markdown语法">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://china365-vip.github.io/post/shenqing/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          友链申请规则（申请必看）
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-10-14</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        请各位博主仔细阅读，谢谢~
+新增规则：
+1.申请的友链将经过筛选（请按格式填好哦～)
+2.原则上最好为使用 HTTPS 协议站点
+3.已添加友链不会轻易删除 (如您已移除本站链接，本站也将移除友链)
+4.最终解释权归本站所有所有。
+内容原则...
+      </div>
+      <a href="https://china365-vip.github.io/post/shenqing/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://china365-vip.github.io/post-images/shenqing.jpg" alt="友链申请规则（申请必看）">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://china365-vip.github.io/post/71/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          双节快乐
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-10-01</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        我们一同迎来了国家71周年，祝大家中秋国庆快乐，祝我们的国家繁荣昌盛，更加富强！
+高浩轩 敬上
+...
+      </div>
+      <a href="https://china365-vip.github.io/post/71/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://china365-vip.github.io/post-images/71.jpg" alt="双节快乐">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://china365-vip.github.io/post/Office365E5/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          免费送E5账号（5个）
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-09-30</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        本次已经送完，等下次吧，感谢大家支持
+emm.....最近突然想送点Microsoft Office365 E5账号(开发者)
+大家可以在评论区留言领取，博主看到会及时回复的
+领取格式：
+领取E5账号
+领取邮箱:(自己的邮箱）
+领取前辍:随...
+      </div>
+      <a href="https://china365-vip.github.io/post/Office365E5/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://china365-vip.github.io/post-images/Office365E5.jpg" alt="免费送E5账号（5个）">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://china365-vip.github.io/post/Teambition/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          阿里云网盘（Teambition）
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-09-17</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        阿里云网盘，没听说过？我也是才知道不久，额，阿里的东西还是很OK的。
+它的容量：50GB（哈哈）还没某度大呢，因为是新网盘嘛。
+需要申请内测，有人说八月申请的九月还没下来呢
+官网：Teambition官网 
+申请地址：Teambition申...
+      </div>
+      <a href="https://china365-vip.github.io/post/Teambition/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://china365-vip.github.io/post-images/Teambition.png" alt="阿里云网盘（Teambition）">
+    
+  </div>
+  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
+    
+    
+      <a href="https://china365-vip.github.io/page/2" class="btn btn-white">
+        下一页
+        <i class="ri-arrow-right-line ml-4"></i>
+      </a>
+    
+  </div>
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://china365-vip.github.io/media/scripts/main.js"></script>
+</body>
+
+</html>
