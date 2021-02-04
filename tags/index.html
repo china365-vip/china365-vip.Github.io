@@ -1,244 +1,138 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html>
+  <head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>高浩轩</title>
-<link rel="shortcut icon" href="https://china365-vip.github.io/favicon.ico">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
-<link rel="stylesheet" href="https://china365-vip.github.io/media/css/tailwind.css">
+<link rel="shortcut icon" href="https://china365-vip.github.io/favicon.ico?v=1612412900250">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://china365-vip.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="高浩轩 - Atom Feed" href="https://china365-vip.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
-    
+
 
   <meta name="description" content="只争朝夕，不负韶华！" />
-</head>
-<body>
-  <div class="antialiased flex flex-col min-h-screen" id="app">
-    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
-  <div class="flex justify-end px-4">
-    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
-      <i class="ri-close-line" v-show="showMenu"></i>
-      <i class="ri-menu-3-line" v-show="!showMenu"></i>
-    </div>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://china365-vip.github.io">
+  <img class="avatar" src="https://china365-vip.github.io/images/avatar.png?v=1612412900250" alt="">
+  </a>
+  <h1 class="site-title">
+    高浩轩
+  </h1>
+  <p class="site-description">
+    只争朝夕，不负韶华！
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
   </div>
-  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+  <div class="social-container">
     
-      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        首页
-      </a>
+      
     
-      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        归档
-      </a>
+      
     
-      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        标签
-      </a>
+      
     
-      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        关于
-      </a>
+      
     
-    <a href="https://china365-vip.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-      RSS
-    </a>
-  </nav>
+      
+    
+  </div>
 </div>
-    <div class="max-w-4xl w-full mx-auto pt-32">
-      <div class="py-8 shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/rKpSlVVRo/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              网盘（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/1NtXnPEUn1/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              新年快乐（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/e5pYdWYygK/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              国家公祭（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/jiiWYJ_rH7/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              南京屠杀（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/3dUBKYWN2l/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              私人云盘（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/faAixrk4Z2/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              Gitee（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/wDTk2plKhN/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              PicGO（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/37O4iu7HYu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              生活（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/6KYxr5FXMz/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              网站（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/lTG1U2iod4/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              语法（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/_XYIYUXzYk/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              友链申请（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/wHSgHE8MbY/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              国庆快乐（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/uLQ79Hymz5/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              office365（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/v4JAEMiZAt/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              Teambition（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/eEEUq5YdPx/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              阿里云网盘（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/adl4UY4zKcu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              搜索（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/KlrTmkF9Lu2/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              安全（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/x-bzNjW_vpe/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              静态网站（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/-fj7Lg0on/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              Gridea（2）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/qbfahfVUtAm/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              迅雷（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/uKOorQ7GgP6/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              测评（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/vFmWWg1fjW1/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              下载（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/TGo6u2-FAWd/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              腾讯云（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/Ecd2HaqcApr/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              Github（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/awvzDn-PX1Q/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              转移站点（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://china365-vip.github.io/tag/vNw6CcTRuuH/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              音乐（1）
-            </a>
-          </div>
-        
-      </div>
-      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+
+
+        <div class="tags-container">
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/rKpSlVVRo/">网盘</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/1NtXnPEUn1/">新年快乐</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/e5pYdWYygK/">国家公祭</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/jiiWYJ_rH7/">南京屠杀</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/3dUBKYWN2l/">私人云盘</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/faAixrk4Z2/">Gitee</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/wDTk2plKhN/">PicGO</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/37O4iu7HYu/">生活</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/6KYxr5FXMz/">网站</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/lTG1U2iod4/">语法</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/_XYIYUXzYk/">友链申请</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/wHSgHE8MbY/">国庆快乐</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/uLQ79Hymz5/">office365</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/v4JAEMiZAt/">Teambition</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/eEEUq5YdPx/">阿里云网盘</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/adl4UY4zKcu/">搜索</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/KlrTmkF9Lu2/">安全</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/x-bzNjW_vpe/">静态网站</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/-fj7Lg0on/">Gridea</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/qbfahfVUtAm/">迅雷</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/uKOorQ7GgP6/">测评</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/vFmWWg1fjW1/">下载</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/TGo6u2-FAWd/">腾讯云</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/Ecd2HaqcApr/">Github</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/awvzDn-PX1Q/">转移站点</a>
+          
+            <a class="tag" href="https://china365-vip.github.io/tag/vNw6CcTRuuH/">音乐</a>
+          
+        </div>
+
+        <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-</footer>
+  <a class="rss" href="https://china365-vip.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://china365-vip.github.io/media/scripts/main.js"></script>
-</body>
+  </body>
 </html>
